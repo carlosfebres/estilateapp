@@ -1,0 +1,78 @@
+
+page-tutorial {
+  .toolbar-background {
+    background: transparent;
+    border-color: transparent;
+  }
+  .slide-title {
+    margin-top: 2.8rem;
+    color: #fff;
+    font-size: 35px;
+  }
+  .bg-tutorial {
+    background-image: url("/assets/img/bg-dorado.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+  .slide-zoom {
+    height: 100%;
+  }
+  .swiper-pagination-bullet {
+    border-radius: 100%;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    opacity: .5;
+    pointer-events: auto;
+  }
+  .swiper-pagination-bullet-active {
+    background: #E8B8AC !important;
+    opacity: 1;
+}
+  .slide-title {
+    margin-top: 2.8rem;
+  }
+
+  .logo-image {
+    margin: 50px 0;
+    margin-top: 30%;
+    width: 85%;
+  }
+  .logo-image-side {
+    margin: 50px 0;
+    margin-top: 30%;
+    margin-bottom: 22%;
+    width: 85%;
+  }
+  .item-ios {
+    padding-left: 16px;
+    border-radius: 0;
+    position: relative;
+    font-size: 1.7rem;
+    color: #000;
+    background-color: transparent !important;
+    -webkit-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+}
+  .right{
+    text-align: right !important;
+  }
+
+  b {
+    font-weight: 500;
+  }
+
+  p {
+    padding: 0 40px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+
+    b {
+      color: #fff;
+    }
+  }
+
+}
