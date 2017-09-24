@@ -18,6 +18,13 @@ page-tutorial {
     max-width: 60%;
     margin: 36px 0;
   }
+  
+  .bg-tutorial {
+    background-image: url("/assets/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
 
   b {
     font-weight: 500;

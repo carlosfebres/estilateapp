@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedItem">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Vamos! Agenda tu cita</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-pelos">
+  <ion-card>
+  <ion-list>
+    <ion-item>
+      <ion-input placeholder="Location"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Fecha</ion-label>
+      <ion-datetime displayFormat="MMM DD YYYY" [(ngModel)]="event.month"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Hora</ion-label>
+      <ion-datetime displayFormat="h:mm A" pickerFormat="h mm A" [(ngModel)]="event.timeStarts"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+        <ion-label>Comentario</ion-label>
+        <ion-textarea ngControl="Comentario"></ion-textarea>
+    </ion-item>
+    <button ion-button round color="black" outline block (click)="agendar()" (click)="regresar()">Agendar</button>
+  </ion-list>
+</ion-card>
+</ion-content>
+<!--
+<style>
+  ion-list:first-child {
+    margin-top: 32px;
+  }
+  ion-list + ion-list {
+    margin-top: 0;
+  }
+</style> -->

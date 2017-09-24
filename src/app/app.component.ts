@@ -7,6 +7,10 @@ import { ListPage } from '../pages/list/list';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { RegisterJobsPage } from '../pages/register-jobs/register-jobs';
+import { MaquillajePage } from '../pages/maquillaje/maquillaje';
+import { UnasPage } from '../pages/unas/unas';
+import { PerfilJobsPage } from '../pages/perfil-jobs/perfil-jobs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -32,10 +36,10 @@ export class MyApp {
     this.initializeApp();
 
     // set our app's pages
-    this.pages = [
-      { title: 'Hello Ionic', component: HelloIonicPage },
-      { title: 'My First List', component: ListPage }
-    ];
+    // this.pages = [
+    //   { title: 'Inicio', component: ListPage },
+    //   { title: 'My First List', component: ListPage }
+    // ];
   }
 
   initializeApp() {

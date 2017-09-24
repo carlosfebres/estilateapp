@@ -3,15 +3,21 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>My First List</ion-title>
+    <ion-title>Categorias</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content>
+<ion-content >
   <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-
+    <button ion-item (click)="new()">
+      Cabello
+    </button>
+    <button ion-item (click)="maqui()">
+      Maquillaje
+    </button>
+    <button ion-item (click)="unas()">
+      Uñas
     </button>
   </ion-list>
-  
+
 </ion-content>

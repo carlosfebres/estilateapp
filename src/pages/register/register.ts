@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 
 import { NavController, NavParams } from 'ionic-angular';
 
+import { TutorialPage } from '../tutorial/tutorial';
+
 
 @Component({
   selector: 'page-Register',
@@ -12,6 +14,9 @@ export class RegisterPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     // If we navigated to this page, we will have an item available as a nav param
-
+  }
+  cita() {
+    this.navCtrl.push(TutorialPage,{
+    });
   }
 }

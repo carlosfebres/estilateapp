@@ -1,0 +1,21 @@
+<ion-content no-bounce class="bg-tutorial">
+  <button color="dark" ion-button icon-end large clear (click)="login()">
+     <ion-icon name="arrow-back"></ion-icon>
+     Atras
+  </button>
+  <div class="col-12 center-logo">
+    <img src="assets/img/estila-02.png" class="logo-image"/>
+  </div>
+  <p class="center-logo">Hola! nuestro equipo esta interesado en gente talentosa para ofrecer servicios de alta calidad. <br>
+    Envianos tu correo y te proporcionaremos toda la informacion necesario para que seas parte de <b>ESTILA!</b>
+  </p>
+  <div class="col-12 content-login">
+    <ion-list class="item-login">
+    <ion-item>
+      <ion-input type="text" placeholder="Correo Electronico"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button color="dark" block outline round (click)="enviado()" (click)="login()">Enviar</button>
+  </div>
+
+</ion-content>

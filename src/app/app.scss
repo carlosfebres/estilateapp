@@ -14,3 +14,25 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+.bg-menu {
+  background-image: url("/assets/img/estila-05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+.item-menu{
+  background-color: transparent !important;
+  border: none !important;
+}
+.list-md .item-block .item-inner {
+    border-bottom: none !important;
+}
+.header-ios .toolbar-background-ios, .footer-ios .toolbar-background-ios {
+    border-style: none !important;
+    border-color: none !important;
+    background-color: #e8b7ac;
+}
+.text-center{
+  text-align: center !important;
+}

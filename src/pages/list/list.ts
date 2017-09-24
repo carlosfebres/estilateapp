@@ -5,6 +5,8 @@ import { NavController, NavParams } from 'ionic-angular';
 import { ItemDetailsPage } from '../item-details/item-details';
 
 import { NewPage } from '../newpage/newpage';
+import { MaquillajePage } from '../maquillaje/maquillaje';
+import { UnasPage } from '../unas/unas';
 
 @Component({
   selector: 'page-list',
@@ -35,6 +37,14 @@ export class ListPage {
   }
   new() {
     this.navCtrl.push(NewPage, {
+    });
+  }
+  maqui() {
+    this.navCtrl.push(MaquillajePage, {
+    });
+  }
+  unas() {
+    this.navCtrl.push(UnasPage, {
     });
   }
 }

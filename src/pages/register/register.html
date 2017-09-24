@@ -1,17 +1,36 @@
-<ion-content no-bounce>
-  <ion-list>
-  <ion-item>
-    <ion-label floating>Username</ion-label>
-    <ion-input type="text"></ion-input>
-  </ion-item>
+<ion-content no-bounce class="bg-tutorial">
+  <button color="dark" ion-button icon-end large clear (click)="login()">
+     <ion-icon name="arrow-back"></ion-icon>
+     Atras
+  </button>
+  <div class="col-12 center-logo">
+    <img src="assets/img/estila-02.png" class="logo-image"/>
+  </div>
+  <div class="col-12 content-login">
+    <ion-list class="item-login">
+    <ion-item>
+      <ion-input type="text" placeholder="Nombre"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Apellido"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Correo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Telefono"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Dirección"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Nombre de Usuario"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input type="text" placeholder="Contraseña"></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button color="dark" block outline round (click)="login()">Registrarse</button>
+  </div>
 
-  <ion-item>
-    <ion-label floating>Password</ion-label>
-    <ion-input type="password"></ion-input>
-  </ion-item>
-
-  <button ion-button full (click)="startApp()" >login</button>
-  <button ion-button full (click)="register()" >Registro</button>
-
-</ion-list>
 </ion-content>
