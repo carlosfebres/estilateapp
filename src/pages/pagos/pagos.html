@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <button menuToggle *ngIf="!selectedItem">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Metodos de Pago</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-pelos">
+  <ion-card>
+  <ion-list>
+    <button class="" ion-item>
+        <ion-icon name="card"></ion-icon> Tarjeta de Credito
+    </button>
+    <button class="" ion-item>
+      <ion-icon name="cash"></ion-icon> Transferencia
+    </button>
+  </ion-list>
+</ion-card>
+
+</ion-content>
+<!--
+<style>
+  ion-list:first-child {
+    margin-top: 32px;
+  }
+  ion-list + ion-list {
+    margin-top: 0;
+  }
+</style> -->

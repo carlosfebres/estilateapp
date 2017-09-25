@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import {ModalController, Platform, NavController, NavParams } from 'ionic-angular';
+import {ModalController, NavController, NavParams } from 'ionic-angular';
 
 import { CitasPage } from '../citas/citas';
 

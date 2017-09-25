@@ -1,6 +1,6 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { MenuController, NavController, Slides } from 'ionic-angular';
+import { MenuController, NavController } from 'ionic-angular';
 
 import { trigger, state, style, transition, animate } from '@angular/animations'
 

@@ -1,22 +1,19 @@
 <ion-header>
   <ion-navbar hideBackButton="true">
-    <button ion-button menuToggle>
+    <button ion-button class="white" menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>Categorias</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content >
+<ion-content class="bg-menu">
   <ion-list>
-    <button ion-item (click)="new()">
-      Cabello
+    <button class="bg-cat-maquillaje" ion-item (click)="maqui()">
     </button>
-    <button ion-item (click)="maqui()">
-      Maquillaje
+    <button class="bg-cat-stilismo" ion-item (click)="new()">
     </button>
-    <button ion-item (click)="unas()">
-      Uñas
+    <button class="bg-cat-unas" ion-item (click)="unas()">
     </button>
   </ion-list>
 

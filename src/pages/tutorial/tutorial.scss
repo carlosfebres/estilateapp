@@ -14,7 +14,7 @@ page-tutorial {
     text-align: center;
   }
   .bg-tutorial {
-    background-image: url("/assets/img/bg1.jpg");
+    background-image: url("/assets/img/bg-2.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -76,7 +76,18 @@ page-tutorial {
   }
   .item-login{
     padding: 20px;
-    background: rgba(255, 255, 255, 0.37);
+    background: rgba(0, 0, 0, 0.37);
+    border-radius: 10px;
+    margin-top: 20%;
+  }
+  .btn-white{
+    border-color: #fff;
+    color: #fff;
+    height: 40px
+  }
+  .jobs{
+    position: absolute;
+    bottom: 20px;
   }
   .logo-image-side {
     margin: 50px 0;
@@ -113,6 +124,47 @@ page-tutorial {
   .right{
     text-align: right !important;
   }
+
+  ::-webkit-input-placeholder {
+color: #fff !important;
+}
+*:-moz-placeholder {
+color: #fff !important;
+}
+*:-ms-input-placeholder {
+color: red !important;
+}
+
+input::-webkit-input-placeholder {
+color: #999;
+}
+input:focus::-webkit-input-placeholder {
+color: #fff;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+color: #fff;
+}
+input:focus:-moz-placeholder {
+color: #fff;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+color: #999;
+}
+input:focus::-moz-placeholder {
+color: #fff;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+color: #999;
+}
+input:focus:-ms-input-placeholder {
+color: #fff;
+}
 
   b {
     font-weight: 500;

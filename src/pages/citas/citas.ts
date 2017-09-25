@@ -3,7 +3,8 @@ import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { AlertController } from 'ionic-angular';
 
-import { PerfilJobsPage } from '../perfil-jobs/perfil-jobs';
+// import { PerfilJobsPage } from '../perfil-jobs/perfil-jobs';
+import { NextCitaPage } from '../next-cita/next-cita';
 
 
 @Component({
@@ -28,8 +29,8 @@ export class CitasPage {
   });
   alert.present();
 }
-regresar() {
-  this.navCtrl.push(PerfilJobsPage,{
+siguiente() {
+  this.navCtrl.push(NextCitaPage,{
   });
 }
 }

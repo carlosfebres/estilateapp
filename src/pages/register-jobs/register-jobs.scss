@@ -35,6 +35,12 @@ page-Register-Jobs {
       opacity: .5;
       pointer-events: auto;
     }
+    .item-login{
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.37);
+      border-radius: 10px;
+      margin-top: 20%;
+    }
     .swiper-pagination-bullet-active {
       background: #E8B8AC !important;
       opacity: 1;
@@ -66,10 +72,6 @@ page-Register-Jobs {
     }
     .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
       color: #000 !important;
-    }
-    .item-login{
-      padding: 20px;
-      background: rgba(255, 255, 255, 0.37);
     }
     .logo-image-side {
       margin: 50px 0;
@@ -111,6 +113,48 @@ page-Register-Jobs {
     .right{
       text-align: right !important;
     }
+
+    ::-webkit-input-placeholder {
+  color: #fff !important;
+  }
+  *:-moz-placeholder {
+  color: #fff !important;
+  }
+  *:-ms-input-placeholder {
+  color: red !important;
+  }
+
+  input::-webkit-input-placeholder {
+  color: #999;
+  }
+  input:focus::-webkit-input-placeholder {
+  color: #fff;
+  }
+
+  /* Firefox < 19 */
+  input:-moz-placeholder {
+  color: #fff;
+  }
+  input:focus:-moz-placeholder {
+  color: #fff;
+  }
+
+  /* Firefox > 19 */
+  input::-moz-placeholder {
+  color: #999;
+  }
+  input:focus::-moz-placeholder {
+  color: #fff;
+  }
+
+  /* Internet Explorer 10 */
+  input:-ms-input-placeholder {
+  color: #999;
+  }
+  input:focus:-ms-input-placeholder {
+  color: #fff;
+  }
+
 
     b {
       font-weight: 500;

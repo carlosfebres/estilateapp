@@ -1,6 +1,6 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component } from '@angular/core';
 
-import { MenuController, NavController } from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 import { ListPage } from '../list/list';
 import { RegisterPage } from '../register/register';

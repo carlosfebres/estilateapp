@@ -20,5 +20,38 @@ page-list {
     border-style: none !important;
     border-color: none !important;
   }
-  
+  .white{
+    color: #fff;
+  }
+  .bg-cat-stilismo {
+    background-image: url("/assets/img/2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0px;
+  }
+  .bg-cat-maquillaje{
+    background-image: url("/assets/img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0px;
+  }
+  .bg-cat-unas{
+    background-image: url("/assets/img/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 75px 0px;
+  }
+    .list-ios .item-block .item-inner {
+      border-bottom: none;
+  }
+  .bg-menu {
+    background-image: url("/assets/img/estila-05.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+  }
 }

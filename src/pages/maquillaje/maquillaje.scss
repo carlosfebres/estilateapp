@@ -5,4 +5,12 @@ page-maquillaje {
     background-position: center;
     background-size: cover;
   }
+  .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default {
+    color: #fff;
+    background-color: transparent;
+}
+.bar-button-default-md, .bar-button-default.bar-button-md-default, .bar-button-clear-md-default {
+    color: #fff;
+    background-color: transparent;
+}
 }

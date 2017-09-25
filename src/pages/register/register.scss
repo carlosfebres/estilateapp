@@ -26,6 +26,10 @@ page-Register {
   .slide-zoom {
     height: 100%;
   }
+  .jobs{
+    position: absolute;
+    bottom: 20px;
+  }
   .swiper-pagination-bullet {
     border-radius: 100%;
     display: inline-block;
@@ -67,10 +71,7 @@ page-Register {
   .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
     color: #000 !important;
   }
-  .item-login{
-    padding: 20px;
-    background: rgba(255, 255, 255, 0.37);
-  }
+
   .logo-image-side {
     margin: 50px 0;
     margin-top: 30%;
@@ -111,6 +112,47 @@ page-Register {
   .right{
     text-align: right !important;
   }
+
+  ::-webkit-input-placeholder {
+color: #fff !important;
+}
+*:-moz-placeholder {
+color: #fff !important;
+}
+*:-ms-input-placeholder {
+color: red !important;
+}
+
+input::-webkit-input-placeholder {
+color: #999;
+}
+input:focus::-webkit-input-placeholder {
+color: #fff;
+}
+
+/* Firefox < 19 */
+input:-moz-placeholder {
+color: #fff;
+}
+input:focus:-moz-placeholder {
+color: #fff;
+}
+
+/* Firefox > 19 */
+input::-moz-placeholder {
+color: #999;
+}
+input:focus::-moz-placeholder {
+color: #fff;
+}
+
+/* Internet Explorer 10 */
+input:-ms-input-placeholder {
+color: #999;
+}
+input:focus:-ms-input-placeholder {
+color: #fff;
+}
 
   b {
     font-weight: 500;

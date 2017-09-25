@@ -15,6 +15,8 @@ import { MaquillajePage } from '../pages/maquillaje/maquillaje';
 import { UnasPage } from '../pages/unas/unas';
 import { PerfilJobsPage } from '../pages/perfil-jobs/perfil-jobs';
 import { CitasPage } from '../pages/citas/citas';
+import { NextCitaPage } from '../pages/next-cita/next-cita';
+import { PagosPage } from '../pages/pagos/pagos';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -35,7 +37,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MaquillajePage,
     UnasPage,
     PerfilJobsPage,
-    CitasPage
+    CitasPage,
+    NextCitaPage,
+    PagosPage
 
   ],
   imports: [
@@ -57,7 +61,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MaquillajePage,
     UnasPage,
     PerfilJobsPage,
-    CitasPage
+    CitasPage,
+    NextCitaPage,
+    PagosPage
   ],
   providers: [
     StatusBar,

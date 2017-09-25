@@ -36,3 +36,32 @@
 .text-center{
   text-align: center !important;
 }
+.item-login{
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+  margin-top: 20%;
+}
+.btn-white{
+  border-color: #fff;
+  color: #fff;
+  height: 40px
+}
+.jobs{
+  position: absolute;
+  bottom: 20px;
+}
+.toolbar-title-ios {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff;
+    pointer-events: auto;
+}
+.toolbar-title-md {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #fff;
+    pointer-events: auto;
+}

@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar >
+    <button ion-button class="white" menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Lugar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="bg-menu">
+  <ion-card>
+    <ion-card-title class="text-center">
+      ¿Donde quieres realizar tu cita?
+    </ion-card-title>
+    <ion-item>
+      <ion-label>Tu Locación</ion-label>
+      <ion-toggle checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Estudio Profesional</ion-label>
+      <ion-toggle  checked="false"></ion-toggle>
+    </ion-item>
+    <iframe width="600" height="300" frameborder="0" style="border:0"
+    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJa57ZLfWYiY4RyqOtSE_IhpU&key=AIzaSyAZ8WE0YgPV5RK4h3JPvg-P32UPYroK-ZQ" allowfullscreen></iframe>
+    <ion-item>
+      <ion-input class="input-dir" type="text" placeholder="Calle | AV"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input class="input-dir" type="text" placeholder="Casa"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input class="input-dir" type="text" placeholder="Punto de Referencia"></ion-input>
+    </ion-item>
+  </ion-card>
+  <button ion-button round color="dark" outline block (click)="pago()">Siguiente</button>
+</ion-content>

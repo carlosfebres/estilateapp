@@ -2,15 +2,17 @@ import { Component, ViewChild } from '@angular/core';
 
 import { Platform, MenuController, Nav } from 'ionic-angular';
 
-import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
-import { ListPage } from '../pages/list/list';
+// import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
+// import { ListPage } from '../pages/list/list';
 import { TutorialPage } from '../pages/tutorial/tutorial';
-import { LoginPage } from '../pages/login/login';
-import { RegisterPage } from '../pages/register/register';
-import { RegisterJobsPage } from '../pages/register-jobs/register-jobs';
-import { MaquillajePage } from '../pages/maquillaje/maquillaje';
-import { UnasPage } from '../pages/unas/unas';
-import { PerfilJobsPage } from '../pages/perfil-jobs/perfil-jobs';
+// import { LoginPage } from '../pages/login/login';
+// import { RegisterPage } from '../pages/register/register';
+// import { RegisterJobsPage } from '../pages/register-jobs/register-jobs';
+// import { MaquillajePage } from '../pages/maquillaje/maquillaje';
+// import { UnasPage } from '../pages/unas/unas';
+// import { PerfilJobsPage } from '../pages/perfil-jobs/perfil-jobs';
+// import { NextCitaPage } from '../pages/next-cita/next-cita';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
