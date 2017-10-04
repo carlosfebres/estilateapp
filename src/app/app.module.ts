@@ -21,7 +21,6 @@ import { PagosPage } from '../pages/pagos/pagos';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -44,7 +43,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
